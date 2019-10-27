@@ -42,10 +42,10 @@ public class UserServiceImpl implements UserService {
 			WritableSheet ws = wwb.createSheet("Test sheet 1", 0);
 			
 			List<User> userList = userDao.userList();
-			Label labelId = new Label(0, 0, "±‡∫≈£®ID£©");
-			Label labelName = new Label(1, 0, "–’√˚");
-			Label labelPassword = new Label(2, 0, "√‹¬Î");
-			Label labelEmail = new Label(3, 0, "” œ‰");
+			Label labelId = new Label(0, 0, "A");
+			Label labelName = new Label(1, 0, "B");
+			Label labelPassword = new Label(2, 0, "C");
+			Label labelEmail = new Label(3, 0, "D");
 			
 			ws.addCell(labelId);
 			ws.addCell(labelName);
